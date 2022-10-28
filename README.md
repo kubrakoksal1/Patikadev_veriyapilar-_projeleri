@@ -20,27 +20,27 @@ SORU: [22,27,16,2,18,6] -> Insertion Sort
 14-) 2,6,16,18,22,27| ->Dizi küçükten büyüğe başarıyla sıralandı.
 ```
 ## Big-O gösterimini yazınız.
-´´´
+```
 O(N^2)
-´´´
+```
 ## Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
-´´´
+```
 [2,6,16,18,22,27]=> Sıralanmış dizi
 
 Cevap : Aradığımız sayı başta(Best Case) ve sonda(Worse Case) olmadığından beklenilen durum olarak Average Case'dir.
-´´´
+```
 ## [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
-´´´
+```
 7|,3,5,8,2,9,4,15,6
 3,7|,5,8,2,9,4,14,6
 3,5,7|,8,2,9,4,14,6
 3,5,7,8|,2,9,4,14,6 -> 4.adımımız bu şekilde olur
-´´´
+```
 # Merge Sort Projesi
 SORU: [16,21,11,8,12,22] -> Merge Sort
 ## Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
 
-´´´
+```
           -[16,21,11,8,12,22]                  Yapı ikiye bölünür.
  -   [16,21,11]               [8,12,22]        Tekrar bölüyoruz
  -  [16]    [21,11]         [8]    [12,22]     Tek eleman kalması için tekrar bölüyoruz.
@@ -48,15 +48,15 @@ SORU: [16,21,11,8,12,22] -> Merge Sort
  -  [16]    [11,21]         [8]    [12,22]     Bu diziyi tekrar sıralı olarak birleştiriyoruz.
  -    [11,16,21]              [8,12,22]        Son birleştirme işlemini gerçekleştiriyoruz.
  -           [8,11,12,16,21,22]
- ´´´
+```
  ## Big-O gösterimini yazınız.
- ´´´
+```
  O(n.logn)
- ´´´
+```
  # Binary Search Tree Projesi
  ## [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
-´´´
+```
        7
       / \
      5   8
@@ -67,4 +67,4 @@ SORU: [16,21,11,8,12,22] -> Merge Sort
      / \
     2    4
 
-  ´´´
+  ```
